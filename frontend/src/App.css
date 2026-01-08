@@ -1,0 +1,35 @@
+.contact-btn,
+.bg-gradient {
+  background: linear-gradient(135deg, #F2735B 0%, #F2735B 100%) !important;
+  color: white !important;
+}
+
+.search-icon-container,
+.gradient-border-btn {
+  background: linear-gradient(#fbfbfb, #fbfbfb) padding-box,
+    linear-gradient(135deg, #F2735B 0%, #E37439 100%) border-box !important;
+  border: 2px solid transparent !important;
+  color: #17312C;
+}
+
+.hover-effect:hover {
+  background: linear-gradient(135deg,
+      #17312C 2%,
+      #56B77E 90%,
+      #F2735B 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-effect {
+  background: linear-gradient(135deg, #17312C 2%, #56B77E 90%, #F2735B 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+@media (max-width:600px) {
+  .search-popup {
+    width: 95vw;
+  }
+}
